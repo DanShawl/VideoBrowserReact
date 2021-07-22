@@ -1,4 +1,3 @@
-import { div } from 'prelude-ls';
 import React from 'react';
 
 class SearchBar extends React.Component {
@@ -10,7 +9,7 @@ class SearchBar extends React.Component {
   };
   render() {
     return (
-      <div className="ui search-bar">
+      <div className="ui search-bar" style={{ marginBottom: '1em' }}>
         <form className="ui form" onSubmit={this.onFormSubmit} action="">
           <div className="field">
             {/* <label htmlFor="">Video Search</label> */}
